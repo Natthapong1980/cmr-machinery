@@ -1,0 +1,57 @@
+*{
+    margin: 2px; 
+    padding: 0;
+    box-sizing:border-box;   
+ }
+
+ body{     
+    background-color: goldenrod;          
+    background-position: center;        
+ }
+
+ header{
+     background: #050505;
+     padding: 0px 0px;
+     border: solid 5px #2e21e7;
+     border-radius: 10px;    
+ }
+ header a{
+     text-decoration: none;   
+     margin: 35px;      
+     font-weight: bold;
+     letter-spacing: 3px;
+     position: relative;
+     bottom: 40px;
+     color:white; 
+ }
+ header a::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 5px;    
+    background-image:linear-gradient(rgb(5, 248, 45),rgb(5, 248, 45),rgb(5, 248, 45));
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+    transition: 1s;
+}
+ header a:hover::after{
+     width: 90%;    
+ }
+   
+  a{
+     color:#3a04fc ;
+     letter-spacing: 2px;             
+   }
+
+   table{
+    width: 100%;    
+   }
+
+   td{    
+    padding: 1px 1px 20px;
+   
+   }
+
+ 

@@ -1,0 +1,135 @@
+*{
+    margin: 2px; 
+    
+    box-sizing:border-box;
+ }
+ body{
+     background-color: rgb(131, 229, 247);   
+    
+    }    
+ 
+ header{
+     position: relative; 
+     background: #050505;     
+     border: solid 2px #2e21e7;
+     border-radius: 10px;   
+ }
+
+ header a{   
+    text-decoration: none; 
+    font-size: clamp(12px,2.5vw,18px);   
+    letter-spacing: 2px;
+    position: relative;
+    top: 0px;    
+    color:white; 
+ }
+
+ header a::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 5px;    
+    background-image:linear-gradient(rgb(5, 248, 45),rgb(5, 248, 45),rgb(5, 248, 45));
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+    transition: 1s;
+}
+
+ header a:hover::after{
+     width: 90%;    
+ }
+
+ p{
+    color: rgb(252, 252, 253);
+    background-color: rgb(10, 10, 10);
+    font-size: clamp(14px,2.5vw,20px);
+    font-weight: bold;
+    letter-spacing: 3px;    
+    margin: 20px 10px 30px;
+    padding: 10px;    
+    border: solid 2px #3307f5;
+    border-radius: 20px;       
+  }   
+
+  a{
+    font-size: clamp(10px,2.5vw,16px);
+    font-weight: bold;
+    color: #2904f8;  
+ }
+
+   h4{ 
+    font-size: clamp(10px,2.5vw,18px);   
+    color:rgb(255, 255, 255) ;
+    background: #050505;            
+    margin-top: 5px;        
+    padding: 5px 5px;
+    border: solid 3px #4521e7;
+    border-radius: 20px;    
+    letter-spacing: 2px;   
+   }
+
+   h5{ 
+      font-size: clamp(10px,2.5vw,14px);   
+      color:rgb(2, 19, 252) ;
+      background: #f8f8f8;
+      letter-spacing: 1px;   
+     }
+  
+   td{
+    font-size: clamp(10px,2.5vw,16px);
+    font-weight: bold;    
+    padding: 15px 5px;
+   
+   }   
+
+   footer{     
+      font-size: clamp(10px,2.5vw,20px);
+      font-weight: bold;    
+      margin: 0px;      
+      border-radius: 10px;
+     }
+     #one{ 
+      font-size: clamp(14px,2.5vw,24px);   
+      color:rgb(20, 4, 250) ;
+      background: #f2f3ae;            
+      margin-top: 5px;        
+      padding: 5px 5px;      
+      letter-spacing: 2px;   
+     }
+     #two{ 
+      font-size: clamp(14px,2.5vw,24px);   
+      color:rgb(20, 4, 250) ;
+      background: #f2f3ae;            
+      margin-top: 5px;        
+      padding: 5px 5px;      
+      letter-spacing: 2px;   
+     }
+     #three{ 
+      font-size: clamp(14px,2.5vw,24px);   
+      color:rgb(20, 4, 250) ;
+      background: #f2f3ae;            
+      margin-top: 5px;        
+      padding: 5px 5px;      
+      letter-spacing: 2px;   
+     }
+     #four{ 
+      font-size: clamp(14px,2.5vw,24px);   
+      color:rgb(20, 4, 250) ;
+      background: #f2f3ae;            
+      margin-top: 5px;        
+      padding: 5px 5px;      
+      letter-spacing: 2px;   
+     }
+ 
+
+ 
+
+    
+
+
+
+
+
+
